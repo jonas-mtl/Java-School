@@ -1,0 +1,34 @@
+package discordbot;
+
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
+
+public class NachrichtenReaktion extends ListenerAdapter {
+	
+	private String prefix;
+	private JDA bot;
+
+	NachrichtenReaktion(JDA erhaltenerBot, String erhaltenerPrefix) {
+		prefix = erhaltenerPrefix;
+		bot = erhaltenerBot;
+	}
+	
+	// Funktion, welche "onMessageReceived" ausgeführt wird
+	public void onMessageReceived ( MessageReceivedEvent ereignis )
+	{
+		if(ereignis.isFromGuild() && ereignis.getMember().getId() != bot.getSelfUser().getId() ) 
+		{
+			
+			System.out.println("Nachricht erhalten!");
+			
+			if (ereignis.getMessage().getContentStripped().startsWith(prefix + "hallo"))
+			{
+				
+				ereignis.getChannel().sendMessage("Hallo" + ereignis.getAuthor().getAsMention() + ", ich bin jonas.").queue();
+			}
+		}
+		
+	}
+
+}

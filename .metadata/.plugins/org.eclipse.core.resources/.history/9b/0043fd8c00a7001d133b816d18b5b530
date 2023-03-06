@@ -1,0 +1,19 @@
+package discordbot;
+
+public class Benutzer {
+	
+	public String name;
+	public String id;
+	public int punkte;
+	
+	Benutzer (String erhaltenerName, String erhalteneID)
+	{
+		name = erhaltenerName;
+		id = erhalteneID;
+	}
+
+	void punkteHinzufügen()
+	{
+		punkte++;
+	}
+}

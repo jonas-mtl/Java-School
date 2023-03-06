@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.JDABuilder"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.OnlineStatus"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.entities.Activity.ActivityType"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.entities.Activity"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.hooks.ListenerAdapter"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.events.message.MessageReceivedEvent"/>
+    <fullyQualifiedTypeName name="discordbot.NachrichtenReaktion"/>
+    <fullyQualifiedTypeName name="discordbot.Hauptklasse"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.requests.GatewayIntent"/>
+    <fullyQualifiedTypeName name="discordbot.Benutzer"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.entities.emoji.Emoji"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.internal.requests.Route.Emojis"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.JDA"/>
+</qualifiedTypeNameHistroy>

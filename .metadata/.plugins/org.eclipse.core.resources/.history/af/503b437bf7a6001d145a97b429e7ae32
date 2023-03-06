@@ -1,0 +1,11 @@
+package discordbot;
+
+public class Hauptklasse {
+
+	public static void main(String[] args) {
+		
+		String prefix = "j!";
+
+	}
+
+}

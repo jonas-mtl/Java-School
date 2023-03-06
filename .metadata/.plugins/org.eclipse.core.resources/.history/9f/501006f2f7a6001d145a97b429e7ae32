@@ -1,0 +1,20 @@
+package discordbot;
+
+import net.dv8tion.jda.api.JDABuilder;
+
+public class Hauptklasse {
+
+	public static void main(String[] args) {
+		
+		String token = "MTA3MjUyNjkzMzgwMTMyNDYxNg.GwTkvG.edwkm8FHC56E1OSes2l3xozpoqIEOJRt_Vmpew";
+		String prefix = "js!";
+		
+		
+		String status;
+		
+		// Erstellt einen Java Discord API (JDA) "Bauplan"
+		JDABuilder bauplan = JDABuilder.createDefault(token);
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package discordbot;
+
+import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.OnlineStatus;
+import net.dv8tion.jda.api.entities.Activity;
+
+public class Hauptklasse {
+
+	public static void main(String[] args) {
+		
+		final String token = "MTA3MjUyNjkzMzgwMTMyNDYxNg.GwTkvG.edwkm8FHC56E1OSes2l3xozpoqIEOJRt_Vmpew";
+		final String prefix = "js!";
+		
+		
+		String status;
+		
+		// Erstellt einen Java Discord API (JDA) "Bauplan"
+		JDABuilder bauplan = JDABuilder.createDefault(token);
+
+		bauplan.setStatus(OnlineStatus.ONLINE);
+		bauplan.setActivity(Activity.playing(status));
+		
+	}
+
+}

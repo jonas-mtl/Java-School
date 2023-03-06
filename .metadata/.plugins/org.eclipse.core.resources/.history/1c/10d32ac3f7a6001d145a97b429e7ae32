@@ -1,0 +1,13 @@
+package discordbot;
+
+public class Hauptklasse {
+
+	public static void main(String[] args) {
+		
+		String prefix = "js!";
+		
+		String status = "Ein discord bot!";
+
+	}
+
+}
